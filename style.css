@@ -15,12 +15,12 @@ header
     background-image: url(./Assets/Hero-bg.png);
     background-repeat: no-repeat;
     width: 1440px;
-    height: 698px;
+    height: 750px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 30px;
+    margin-bottom: 70px;
 }
 .header-logo
 {
@@ -46,22 +46,24 @@ header
     align-items: center;
     width: 905px;
     height: 237px;
+    margin-top: -50px;
 }
 nav
 {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 800px;
+    gap: 900px;
     justify-content: space-around;
-    /* margin-top: 0; */
     margin: 0 150px 127px;
+    margin-top: -200px;
 }
 .cool
 {
     font-size: 65px;
     font-weight: bold;
     text-align: center;
+    margin-top: -50px;
 }
 .btn-3
 {
@@ -70,8 +72,9 @@ nav
     border-radius: 10px;
     border: none;
     width: 174px;
-    height: 148px;
+    height: 48px;
     font-size: 16px;
+    margin-top: -20px;
 }
 body 
 {
@@ -89,7 +92,11 @@ body
     justify-content: center;
     width: 1140px;
     height: 328px;
-    margin-bottom: 150px;
+    margin-bottom: 200px;
+}
+.explore
+{
+    font-size: 24px;
 }
 .web-small
 {
@@ -114,17 +121,25 @@ body
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
     background-color: #F8F8FF	;
     width: 1140px;
-    height: 306px;
+    height: 350px;
+    border-radius: 24px;
+}
+.amount
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .data
 {
     padding-top: 0;
     display: flex;
     flex-direction: row;
-    gap: 60px;
+    gap: 100px;
     row-gap: 0;
     margin-bottom: 100px;
 }
@@ -132,6 +147,8 @@ body
 {
     margin-top: 25px;
     font-size: 38px;
+    margin-bottom: 0;
+    margin-top: 100px;
     font-weight: bold;
 }
 .number
@@ -139,6 +156,7 @@ body
     font-size: 80px;
     font-weight: bold;
     color: #4E47FF;
+    margin-bottom: 0;
 }
 .users-say
 {
@@ -146,6 +164,47 @@ body
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 200px;
+    width: 1140px;
+    height: 342px;
+}
+.our
+{
+    font-size: 42px;
+    font-weight: bold;
+}
+.users
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.individual
+{
+    background-color: #F8F8FF;
+    width: 366.67px;
+    height: 243px;
+    padding-left: 60px;
+    padding-top: 40px;
+    border-radius: 14px;
+}
+.review
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.image
+{
+    border-radius: 50%;
+}
+.man
+{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
 }
 .better
 {
@@ -157,6 +216,7 @@ body
     height: 696.77px;
     border-radius: 10px;
     background-color: #F8F8FF;
+    margin-bottom: 100px;
 }
 .web-big
 {
@@ -188,11 +248,25 @@ body
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    width: 1140px;
+    height: 632px;
+    margin-bottom: 100px;
 }
 .touch 
 {
     font-size: 97px;
     font-weight: bold;
+    margin-right: 100px;
+}
+.btn-4
+{
+    background-color: #4E47FF;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    width: 497px;
+    height: 62px;
+    font-size: 16px;
 }
 .last
 {
@@ -204,7 +278,7 @@ body
 footer div ul 
 {
     display: flex;
-    gap: 30px;
+    gap: 80px;
 }
 footer div ul li 
 {
@@ -229,4 +303,18 @@ footer
     background-color: #F8F8FF;
     width: 1440px;
     height: 428px;
+}
+.input-1
+{
+    width: 497px;
+    height: 70px;
+    border-radius: 10px;
+    border: none;
+}
+.input-2
+{
+    width: 497px;
+    height: 135px;
+    border-radius: 10px;
+    border: none;
 }
