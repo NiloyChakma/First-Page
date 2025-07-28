@@ -1,16 +1,112 @@
+.raleway-normal
+{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.inter-normal 
+{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+header
+{
+    background-image: url(./Assets/Hero-bg.png);
+    background-repeat: no-repeat;
+    width: 1440px;
+    height: 698px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.header-logo
+{
+    font-size: 50px;
+    color: #4E47FF;
+    font-weight: bolder;
+}
+.btn
+{
+    background-color: #4E47FF;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    width: 132px;
+    height: 48px;
+    font-size: 16px;
+}
+.template
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 905px;
+    height: 237px;
+}
+nav
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 800px;
+    justify-content: space-around;
+    /* margin-top: 0; */
+    margin: 0 150px 127px;
+}
+.cool
+{
+    font-size: 65px;
+    font-weight: bold;
+    text-align: center;
+}
+.btn-3
+{
+    background-color: #4E47FF;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    width: 174px;
+    height: 148px;
+    font-size: 16px;
+}
+body 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #EEF0FF;
+}
 .section-1
 {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    width: 1140px;
+    height: 328px;
+    margin-bottom: 150px;
 }
 .web-small
 {
     width: 403px;
     height: 328px;
     border-radius: 48px;
-    margin-left: 220px;
+    margin-left: 200px;
+}
+.btn-1
+{
+    background-color: #4E47FF;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    width: 229px;
+    height: 48px;
+    font-size: 16px;
 }
 .user
 {
@@ -18,11 +114,31 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 100px;
+    background-color: #F8F8FF	;
+    width: 1140px;
+    height: 306px;
 }
 .data
 {
+    padding-top: 0;
     display: flex;
     flex-direction: row;
+    gap: 60px;
+    row-gap: 0;
+    margin-bottom: 100px;
+}
+.joined
+{
+    margin-top: 25px;
+    font-size: 38px;
+    font-weight: bold;
+}
+.number
+{
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
 }
 .users-say
 {
@@ -37,12 +153,34 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 1140px;
+    height: 696.77px;
+    border-radius: 10px;
+    background-color: #F8F8FF;
 }
 .web-big
 {
     width: 840px;
     height: 364.77px;
     border-radius: 48px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.better-heading
+{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.btn-2
+{
+    background-color: #4E47FF;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    width: 195px;
+    height: 48px;
+    font-size: 16px;
 }
 .lets-touch
 {
@@ -50,6 +188,11 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+}
+.touch 
+{
+    font-size: 97px;
+    font-weight: bold;
 }
 .last
 {
@@ -61,6 +204,7 @@
 footer div ul 
 {
     display: flex;
+    gap: 30px;
 }
 footer div ul li 
 {
@@ -69,4 +213,20 @@ footer div ul li
 footer div ul li a
 {
     text-decoration: none;
+    color: #8987A1;
+}
+.logo
+{
+    color: #4E47FF;
+    font-size: 100px;
+}
+.writing
+{
+    color: #8987A1;
+}
+footer
+{
+    background-color: #F8F8FF;
+    width: 1440px;
+    height: 428px;
 }
