@@ -38,10 +38,6 @@ header
     height: 48px;
     font-size: 16px;
 }
-.btn:hover, .btn-1:hover, .btn-2:hover, .btn-3:hover, .btn-4:hover
-{
-    background-color: green;
-}
 .template
 {
     display: flex;
@@ -321,4 +317,8 @@ footer
     height: 135px;
     border-radius: 10px;
     border: none;
+}
+.btn:hover, .btn-1:hover, .btn-2:hover, .btn-3:hover, .btn-4:hover
+{
+    background-color: green;
 }
